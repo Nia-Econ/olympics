@@ -30,7 +30,7 @@ be seen in @fig-success, some countries are better at one than the other.
 #| label: fig-success
 #| echo: false
 #| fig-cap: "Number of medals in Winter and Summer games"
-#| warnings: false
+#| warning: false
 medal_counts |>
 ggplot(aes(Summer, Winter)) +
 geom_point() +
